@@ -1,0 +1,28 @@
+[1.187s] Invoking command in '/mnt/c/CS560/zackmichaels_proj_1/zackmichaels_proj_1': PYTHONPATH=/mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/zackmichaels_proj_1 build --build-base /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build install --record /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/install.log --single-version-externally-managed install_data
+[1.667s] running egg_info
+[1.669s] creating ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info
+[1.675s] writing ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/PKG-INFO
+[1.677s] writing dependency_links to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/dependency_links.txt
+[1.681s] writing entry points to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/entry_points.txt
+[1.684s] writing requirements to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/requires.txt
+[1.686s] writing top-level names to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/top_level.txt
+[1.690s] writing manifest file '../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/SOURCES.txt'
+[1.713s] reading manifest file '../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/SOURCES.txt'
+[1.744s] writing manifest file '../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/SOURCES.txt'
+[1.746s] running build
+[1.746s] running build_py
+[1.749s] creating /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build
+[1.750s] creating /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build/lib
+[1.752s] creating /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build/lib/zackmichaels_proj_1_python
+[1.757s] copying zackmichaels_proj_1_python/__init__.py -> /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build/lib/zackmichaels_proj_1_python
+[1.764s] running install
+[1.764s] running install_lib
+[1.778s] creating /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages/zackmichaels_proj_1_python
+[1.789s] copying /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build/lib/zackmichaels_proj_1_python/__init__.py -> /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages/zackmichaels_proj_1_python
+[1.810s] byte-compiling /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages/zackmichaels_proj_1_python/__init__.py to __init__.cpython-310.pyc
+[1.830s] running install_data
+[1.835s] creating /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/ament_index
+[1.836s] creating /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/ament_index/resource_index
+[1.838s] creating /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/ament_index/resource_index/packages
+[1.840s] error: can't copy 'resource/zackmichaels_proj_1': doesn't exist or not a regular file
+[1.859s] Invoked command in '/mnt/c/CS560/zackmichaels_proj_1/zackmichaels_proj_1' returned '1': PYTHONPATH=/mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/zackmichaels_proj_1 build --build-base /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build install --record /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/install.log --single-version-externally-managed install_data

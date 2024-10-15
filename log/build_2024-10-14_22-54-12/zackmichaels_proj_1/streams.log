@@ -1,0 +1,27 @@
+[1.057s] Invoking command in '/mnt/c/CS560/zackmichaels_proj_1/zackmichaels_proj_1': PYTHONPATH=/mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/zackmichaels_proj_1 build --build-base /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build install --record /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/install.log --single-version-externally-managed install_data
+[1.683s] running egg_info
+[1.687s] writing ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/PKG-INFO
+[1.692s] writing dependency_links to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/dependency_links.txt
+[1.697s] writing entry points to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/entry_points.txt
+[1.703s] writing requirements to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/requires.txt
+[1.706s] writing top-level names to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/top_level.txt
+[1.745s] reading manifest file '../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/SOURCES.txt'
+[1.802s] writing manifest file '../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/SOURCES.txt'
+[1.804s] running build
+[1.805s] running build_py
+[1.816s] running install
+[1.817s] running install_lib
+[1.855s] running install_data
+[1.871s] copying launch/zackmichaels_proj_1_launch.py -> /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/zackmichaels_proj_1/launch
+[1.886s] creating /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/zackmichaels_proj_1/worlds
+[1.893s] copying worlds/ten_Hoor_Hall.wbt -> /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/zackmichaels_proj_1/worlds
+[1.909s] copying package.xml -> /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/zackmichaels_proj_1
+[1.920s] creating /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/zackmichaels_proj_1/resource
+[1.926s] copying resource/turtlebot_webots.urdf -> /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/zackmichaels_proj_1/resource
+[1.944s] copying resource/ros2control.yml -> /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/zackmichaels_proj_1/resource
+[1.955s] running install_egg_info
+[1.967s] Copying ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info to /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages/zackmichaels_proj_1-0.0.0-py3.10.egg-info
+[2.147s] running install_scripts
+[2.201s] Installing zackmichaels_proj_1 script to /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/zackmichaels_proj_1
+[2.209s] writing list of installed files to '/mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/install.log'
+[2.233s] Invoked command in '/mnt/c/CS560/zackmichaels_proj_1/zackmichaels_proj_1' returned '0': PYTHONPATH=/mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/zackmichaels_proj_1 build --build-base /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build install --record /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/install.log --single-version-externally-managed install_data

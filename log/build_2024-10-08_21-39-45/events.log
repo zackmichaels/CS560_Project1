@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.000726] (webots_ros2_homework1_python) JobQueued: {'identifier': 'webots_ros2_homework1_python', 'dependencies': OrderedDict()}
+[0.001016] (webots_ros2_homework1_python) JobStarted: {'identifier': 'webots_ros2_homework1_python'}
+[0.069586] (-) TimerEvent: {}
+[0.171249] (-) TimerEvent: {}
+[0.272433] (-) TimerEvent: {}
+[0.373586] (-) TimerEvent: {}
+[0.474983] (-) TimerEvent: {}
+[0.576105] (-) TimerEvent: {}
+[0.677364] (-) TimerEvent: {}
+[0.778324] (-) TimerEvent: {}
+[0.879753] (-) TimerEvent: {}
+[0.980888] (-) TimerEvent: {}
+[1.081757] (-) TimerEvent: {}
+[1.182475] (-) TimerEvent: {}
+[1.283286] (-) TimerEvent: {}
+[1.384047] (-) TimerEvent: {}
+[1.484763] (-) TimerEvent: {}
+[1.585565] (-) TimerEvent: {}
+[1.691806] (-) TimerEvent: {}
+[1.793061] (-) TimerEvent: {}
+[1.894249] (-) TimerEvent: {}
+[1.995170] (-) TimerEvent: {}
+[2.096189] (-) TimerEvent: {}
+[2.197057] (-) TimerEvent: {}
+[2.297782] (-) TimerEvent: {}
+[2.398571] (-) TimerEvent: {}
+[2.499411] (-) TimerEvent: {}
+[2.600278] (-) TimerEvent: {}
+[2.700967] (-) TimerEvent: {}
+[2.801647] (-) TimerEvent: {}
+[2.902327] (-) TimerEvent: {}
+[3.003248] (-) TimerEvent: {}
+[3.051360] (webots_ros2_homework1_python) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/webots_ros2_homework1_python', 'build', '--build-base', '/mnt/c/CS560/f24_robotics/build/webots_ros2_homework1_python/build', 'install', '--record', '/mnt/c/CS560/f24_robotics/build/webots_ros2_homework1_python/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/CS560/f24_robotics/webots_ros2_homework1_python', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zackm', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/zackm', 'OLDPWD': '/mnt/c/CS560', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'zackm', 'NAME': 'DESKTOP-LO7N5B0', 'WSL_INTEROP': '/run/WSL/339_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/zackm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/Python310/Scripts/:/mnt/c/Program Files/Python310/:/mnt/c/Python/Scripts/:/mnt/c/Python/:/mnt/c/Program Files (x86)/Microchip/mplabc30/v3.31/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/MPLabs/MPLAB C32 Suite/bin:/mnt/c/Program Files (x86)/Microchip/MPLAB C32 Suite/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/zackm/AppData/Local/Android/Sdk:/mnt/c/Users/zackm/AppData/Local/Android/Sdk/platform-tools:/mnt/c/CS584/swigwin-4.2.0:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files/ibm/gsk8/lib64:/mnt/c/Program Files (x86)/ibm/gsk8/lib:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/zackm/scoop/apps/maven/current/bin:/mnt/c/Users/zackm/scoop/shims:/mnt/c/Users/zackm/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/zackm/Desktop/Microsoft VS Code/bin:/mnt/c/Program Files/MongoDB/Server/6.0/bin/:/mnt/c/Users/zackm/AppData/Roaming/npm:/mnt/c/Program Files/heroku/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.2.5/bin:/mnt/c/Users/zackm/AppData/Local/GitHubDesktop/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'WEBOTS_HOME': '/mnt/c/Program Files/Webots', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/CS560/f24_robotics/build/webots_ros2_homework1_python', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/CS560/f24_robotics/build/webots_ros2_homework1_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/CS560/f24_robotics/install/webots_ros2_homework1_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[3.103456] (-) TimerEvent: {}
+[3.204261] (-) TimerEvent: {}
+[3.304966] (-) TimerEvent: {}
+[3.405691] (-) TimerEvent: {}
+[3.506642] (-) TimerEvent: {}
+[3.607962] (-) TimerEvent: {}
+[3.708737] (-) TimerEvent: {}
+[3.809561] (-) TimerEvent: {}
+[3.910217] (-) TimerEvent: {}
+[4.011264] (-) TimerEvent: {}
+[4.112181] (-) TimerEvent: {}
+[4.214791] (-) TimerEvent: {}
+[4.315585] (-) TimerEvent: {}
+[4.416708] (-) TimerEvent: {}
+[4.517755] (-) TimerEvent: {}
+[4.618716] (-) TimerEvent: {}
+[4.719562] (-) TimerEvent: {}
+[4.808578] (webots_ros2_homework1_python) StdoutLine: {'line': b'running egg_info\n'}
+[4.819908] (-) TimerEvent: {}
+[4.831155] (webots_ros2_homework1_python) StdoutLine: {'line': b'writing ../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info/PKG-INFO\n'}
+[4.859356] (webots_ros2_homework1_python) StdoutLine: {'line': b'writing dependency_links to ../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info/dependency_links.txt\n'}
+[4.882680] (webots_ros2_homework1_python) StdoutLine: {'line': b'writing entry points to ../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info/entry_points.txt\n'}
+[4.899932] (webots_ros2_homework1_python) StdoutLine: {'line': b'writing requirements to ../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info/requires.txt\n'}
+[4.915181] (webots_ros2_homework1_python) StdoutLine: {'line': b'writing top-level names to ../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info/top_level.txt\n'}
+[4.919962] (-) TimerEvent: {}
+[5.020788] (-) TimerEvent: {}
+[5.024836] (webots_ros2_homework1_python) StdoutLine: {'line': b"reading manifest file '../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info/SOURCES.txt'\n"}
+[5.120925] (-) TimerEvent: {}
+[5.222047] (-) TimerEvent: {}
+[5.259696] (webots_ros2_homework1_python) StdoutLine: {'line': b"writing manifest file '../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info/SOURCES.txt'\n"}
+[5.273493] (webots_ros2_homework1_python) StdoutLine: {'line': b'running build\n'}
+[5.275311] (webots_ros2_homework1_python) StdoutLine: {'line': b'running build_py\n'}
+[5.322149] (-) TimerEvent: {}
+[5.423309] (-) TimerEvent: {}
+[5.482418] (webots_ros2_homework1_python) StdoutLine: {'line': b'running install\n'}
+[5.484257] (webots_ros2_homework1_python) StdoutLine: {'line': b'running install_lib\n'}
+[5.523430] (-) TimerEvent: {}
+[5.624138] (-) TimerEvent: {}
+[5.725369] (-) TimerEvent: {}
+[5.826203] (-) TimerEvent: {}
+[5.851326] (webots_ros2_homework1_python) StdoutLine: {'line': b'running install_data\n'}
+[5.926343] (-) TimerEvent: {}
+[6.027019] (-) TimerEvent: {}
+[6.028944] (webots_ros2_homework1_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.049581] (webots_ros2_homework1_python) StdoutLine: {'line': b"removing '/mnt/c/CS560/f24_robotics/install/webots_ros2_homework1_python/lib/python3.10/site-packages/webots_ros2_homework1_python-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.127409] (-) TimerEvent: {}
+[6.206236] (webots_ros2_homework1_python) StdoutLine: {'line': b'Copying ../build/webots_ros2_homework1_python/webots_ros2_homework1_python.egg-info to /mnt/c/CS560/f24_robotics/install/webots_ros2_homework1_python/lib/python3.10/site-packages/webots_ros2_homework1_python-0.0.0-py3.10.egg-info\n'}
+[6.227482] (-) TimerEvent: {}
+[6.328271] (-) TimerEvent: {}
+[6.429004] (-) TimerEvent: {}
+[6.529880] (-) TimerEvent: {}
+[6.631038] (-) TimerEvent: {}
+[6.732191] (-) TimerEvent: {}
+[6.762862] (webots_ros2_homework1_python) StdoutLine: {'line': b'running install_scripts\n'}
+[6.832323] (-) TimerEvent: {}
+[6.886897] (webots_ros2_homework1_python) StdoutLine: {'line': b'Installing webots_ros2_homework1_python script to /mnt/c/CS560/f24_robotics/install/webots_ros2_homework1_python/lib/webots_ros2_homework1_python\n'}
+[6.924846] (webots_ros2_homework1_python) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/CS560/f24_robotics/build/webots_ros2_homework1_python/install.log'\n"}
+[6.932643] (-) TimerEvent: {}
+[6.961848] (webots_ros2_homework1_python) CommandEnded: {'returncode': 0}
+[7.033022] (-) TimerEvent: {}
+[7.134224] (-) TimerEvent: {}
+[7.235028] (-) TimerEvent: {}
+[7.336062] (-) TimerEvent: {}
+[7.436802] (-) TimerEvent: {}
+[7.537875] (-) TimerEvent: {}
+[7.626649] (webots_ros2_homework1_python) JobEnded: {'identifier': 'webots_ros2_homework1_python', 'rc': 0}
+[7.651657] (-) TimerEvent: {}
+[7.652140] (-) EventReactorShutdown: {}

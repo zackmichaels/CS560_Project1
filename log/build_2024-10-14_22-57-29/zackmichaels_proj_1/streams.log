@@ -1,0 +1,21 @@
+[1.084s] Invoking command in '/mnt/c/CS560/zackmichaels_proj_1/zackmichaels_proj_1': PYTHONPATH=/mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/zackmichaels_proj_1 build --build-base /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build install --record /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/install.log --single-version-externally-managed install_data
+[1.693s] running egg_info
+[1.696s] writing ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/PKG-INFO
+[1.702s] writing dependency_links to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/dependency_links.txt
+[1.707s] writing entry points to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/entry_points.txt
+[1.711s] writing requirements to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/requires.txt
+[1.714s] writing top-level names to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/top_level.txt
+[1.745s] reading manifest file '../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/SOURCES.txt'
+[1.801s] writing manifest file '../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/SOURCES.txt'
+[1.801s] running build
+[1.802s] running build_py
+[1.811s] running install
+[1.812s] running install_lib
+[1.852s] running install_data
+[1.901s] running install_egg_info
+[1.912s] removing '/mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages/zackmichaels_proj_1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.951s] Copying ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info to /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages/zackmichaels_proj_1-0.0.0-py3.10.egg-info
+[2.119s] running install_scripts
+[2.167s] Installing zackmichaels_proj_1 script to /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/zackmichaels_proj_1
+[2.176s] writing list of installed files to '/mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/install.log'
+[2.200s] Invoked command in '/mnt/c/CS560/zackmichaels_proj_1/zackmichaels_proj_1' returned '0': PYTHONPATH=/mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/zackmichaels_proj_1 build --build-base /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build install --record /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/install.log --single-version-externally-managed install_data

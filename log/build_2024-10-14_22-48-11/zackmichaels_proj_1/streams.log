@@ -1,0 +1,21 @@
+[1.002s] Invoking command in '/mnt/c/CS560/zackmichaels_proj_1/zackmichaels_proj_1': PYTHONPATH=/mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/zackmichaels_proj_1 build --build-base /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build install --record /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/install.log --single-version-externally-managed install_data
+[1.503s] running egg_info
+[1.507s] writing ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/PKG-INFO
+[1.513s] writing dependency_links to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/dependency_links.txt
+[1.517s] writing entry points to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/entry_points.txt
+[1.521s] writing requirements to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/requires.txt
+[1.524s] writing top-level names to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/top_level.txt
+[1.552s] reading manifest file '../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/SOURCES.txt'
+[1.601s] writing manifest file '../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/SOURCES.txt'
+[1.601s] running build
+[1.602s] running build_py
+[1.603s] creating /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build/lib/zackmichaels_proj_1
+[1.610s] copying zackmichaels_proj_1/__init__.py -> /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build/lib/zackmichaels_proj_1
+[1.619s] running install
+[1.619s] running install_lib
+[1.634s] creating /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages/zackmichaels_proj_1
+[1.644s] copying /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build/lib/zackmichaels_proj_1/__init__.py -> /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages/zackmichaels_proj_1
+[1.690s] byte-compiling /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages/zackmichaels_proj_1/__init__.py to __init__.cpython-310.pyc
+[1.719s] running install_data
+[1.730s] error: can't copy 'zackmichaels_proj_1_launch.py': doesn't exist or not a regular file
+[1.749s] Invoked command in '/mnt/c/CS560/zackmichaels_proj_1/zackmichaels_proj_1' returned '1': PYTHONPATH=/mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/zackmichaels_proj_1 build --build-base /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build install --record /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/install.log --single-version-externally-managed install_data

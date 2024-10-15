@@ -1,0 +1,16 @@
+[1.069s] Invoking command in '/mnt/c/CS560/zackmichaels_proj_1/zackmichaels_proj_1': PYTHONPATH=/mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/zackmichaels_proj_1 build --build-base /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build install --record /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/install.log --single-version-externally-managed install_data
+[1.571s] running egg_info
+[1.575s] writing ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/PKG-INFO
+[1.580s] writing dependency_links to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/dependency_links.txt
+[1.585s] writing entry points to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/entry_points.txt
+[1.589s] writing requirements to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/requires.txt
+[1.593s] writing top-level names to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/top_level.txt
+[1.621s] reading manifest file '../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/SOURCES.txt'
+[1.670s] writing manifest file '../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/SOURCES.txt'
+[1.671s] running build
+[1.671s] running build_py
+[1.680s] running install
+[1.681s] running install_lib
+[1.724s] running install_data
+[1.728s] error: can't copy 'resource/zackmichaels_proj_1': doesn't exist or not a regular file
+[1.741s] Invoked command in '/mnt/c/CS560/zackmichaels_proj_1/zackmichaels_proj_1' returned '1': PYTHONPATH=/mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/zackmichaels_proj_1 build --build-base /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build install --record /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/install.log --single-version-externally-managed install_data

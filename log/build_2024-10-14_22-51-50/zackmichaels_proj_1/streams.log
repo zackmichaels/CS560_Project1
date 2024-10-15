@@ -1,0 +1,30 @@
+[1.084s] Invoking command in '/mnt/c/CS560/zackmichaels_proj_1/zackmichaels_proj_1': PYTHONPATH=/mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/zackmichaels_proj_1 build --build-base /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build install --record /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/install.log --single-version-externally-managed install_data
+[1.628s] running egg_info
+[1.631s] creating ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info
+[1.637s] writing ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/PKG-INFO
+[1.643s] writing dependency_links to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/dependency_links.txt
+[1.649s] writing entry points to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/entry_points.txt
+[1.654s] writing requirements to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/requires.txt
+[1.657s] writing top-level names to ../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/top_level.txt
+[1.662s] writing manifest file '../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/SOURCES.txt'
+[1.691s] reading manifest file '../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/SOURCES.txt'
+[1.733s] writing manifest file '../build/zackmichaels_proj_1/zackmichaels_proj_1.egg-info/SOURCES.txt'
+[1.736s] running build
+[1.737s] running build_py
+[1.741s] creating /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build
+[1.742s] creating /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build/lib
+[1.744s] creating /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build/lib/zackmichaels_proj_1
+[1.750s] copying zackmichaels_proj_1/__init__.py -> /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build/lib/zackmichaels_proj_1
+[1.759s] running install
+[1.760s] running install_lib
+[1.776s] creating /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages/zackmichaels_proj_1
+[1.788s] copying /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build/lib/zackmichaels_proj_1/__init__.py -> /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages/zackmichaels_proj_1
+[1.811s] byte-compiling /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages/zackmichaels_proj_1/__init__.py to __init__.cpython-310.pyc
+[1.831s] running install_data
+[1.837s] creating /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/ament_index
+[1.838s] creating /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/ament_index/resource_index
+[1.840s] creating /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/ament_index/resource_index/packages
+[1.848s] copying resource/zackmichaels_proj_1 -> /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/ament_index/resource_index/packages
+[1.861s] creating /mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/share/zackmichaels_proj_1/launch
+[1.863s] error: can't copy 'zackmichaels_proj_1_launch.py': doesn't exist or not a regular file
+[1.882s] Invoked command in '/mnt/c/CS560/zackmichaels_proj_1/zackmichaels_proj_1' returned '1': PYTHONPATH=/mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/CS560/zackmichaels_proj_1/install/zackmichaels_proj_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/zackmichaels_proj_1 build --build-base /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/build install --record /mnt/c/CS560/zackmichaels_proj_1/build/zackmichaels_proj_1/install.log --single-version-externally-managed install_data
