@@ -18,6 +18,6 @@
 4. TO CLOSE: Go to the doors position property and set its value to 0
 ### Lighting
 1. First start the Webots application
-2. Click on the cieling light you want to be adjusted
+2. Click on the ceiling light you want to be adjusted
 3. Set the pointLightIntensity value to 0 for the light to be off or a positive value for it to be turned on, with increasing numbers increasing the brightness of the light
 		
