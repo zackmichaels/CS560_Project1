@@ -9,6 +9,9 @@ data_files.append(('share/' + package_name + '/launch', ['launch/zackmichaels_pr
 data_files.append(('share/' + package_name + '/worlds', [
     'worlds/ten_Hoor_Hall.wbt', 
 ]))
+data_files.append(('share/' + package_name + '/worlds', [
+    'worlds/Coookout_Area.wbt', 
+]))
 data_files.append(('share/' + package_name, ['package.xml']))
 data_files.append(('share/' + package_name + '/resource', [
     'resource/turtlebot_webots.urdf',

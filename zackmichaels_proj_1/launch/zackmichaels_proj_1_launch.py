@@ -100,11 +100,11 @@ def generate_launch_description():
     )
 
 
-
+# Change default value to either ten_Hoor_Hall.wbt or Coookout_Area.wbt to launch either world
     return LaunchDescription([
         DeclareLaunchArgument(
             'world',
-            default_value='ten_Hoor_Hall.wbt',
+            default_value='Coookout_Area.wbt',
             description='Choose one of the world files from `/webots_ros2_turtlebot/world` directory'
         ),
         DeclareLaunchArgument(

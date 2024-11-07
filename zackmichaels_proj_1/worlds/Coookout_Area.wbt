@@ -1,0 +1,707 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/RoadIntersection.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/RoadLine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/StraightRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/AddLaneRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/Road.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/CrashBarrier.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/CrossRoadsTrafficLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/CurvedRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/StopSign.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Roughcast.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/SpeedLimitSign.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/advertising_board/protos/AdvertisingBoard.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/FastFoodRestaurant.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/ComposedHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/BungalowStyleHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/SuburbanHouse.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.40337731805216964 0.6538273497032817 -0.6401535253835765 1.5338740236914536
+  position -384.75318507846293 611.9472961565637 1441.863176353002
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 1200 1200
+  appearance Parquetry {
+    type "light strip"
+  }
+}
+SuburbanHouse {
+  translation -326.52 50.46 0
+  rotation 0 0 1 -1.5707953071795862
+  name "suburban house(3)"
+}
+SuburbanHouse {
+  translation -223.35 49.52 0
+  rotation 0 0 1 -1.5707953071795862
+  name "suburban house(2)"
+}
+SuburbanHouse {
+  translation -326.52 145.05 0
+  rotation 0 0 1 -1.5707953071795862
+  name "suburban house(1)"
+}
+SuburbanHouse {
+  translation -223.35 145.05 0
+  rotation 0 0 1 -1.5707953071795862
+}
+BungalowStyleHouse {
+  translation -374.61 229.76 0
+  name "bungalow style house(2)"
+}
+BungalowStyleHouse {
+  translation -276.79 229.76 0
+  name "bungalow style house(1)"
+}
+BungalowStyleHouse {
+  translation -276.79 93.15 0
+}
+ComposedHouse {
+  translation -292.51 276.29 0
+  rotation 0 0 1 -1.5707953071795862
+  name "composed house(5)"
+}
+ComposedHouse {
+  translation -397.99 276.29 0
+  rotation 0 0 1 -1.5707953071795862
+  name "composed house(4)"
+}
+ComposedHouse {
+  translation -197.61 276.29 0
+  rotation 0 0 1 -1.5707953071795862
+  name "composed house(3)"
+}
+ComposedHouse {
+  translation -185.19 231.07 0
+  rotation 0 0 1 1.5708
+  name "composed house(2)"
+}
+ComposedHouse {
+  translation -366.01 95.12 0
+  rotation 0 0 1 1.5708
+  name "composed house(1)"
+}
+ComposedHouse {
+  translation -185.19 95.71 0
+  rotation 0 0 1 1.5708
+}
+FastFoodRestaurant {
+  translation 236.33 299.74 0
+  rotation 0 0 1 1.5708
+}
+AdvertisingBoard {
+  translation 245.99 315.23 0
+  frontTexture [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjc6o3UPPCpH1lUoxZPQF2XO_E2_xszdD4Q_LL4ImDPlSVIZdiNXDVJ82HEQep-2fSgIU&usqp=CAU"
+  ]
+  backTexture [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjc6o3UPPCpH1lUoxZPQF2XO_E2_xszdD4Q_LL4ImDPlSVIZdiNXDVJ82HEQep-2fSgIU&usqp=CAU"
+  ]
+}
+SpeedLimitSign {
+  translation -307.32 -470.12 -1.17047e-05
+  rotation 9.58979e-09 -9.58972e-09 -1 1.5708
+  name "speed limit(3)"
+}
+SpeedLimitSign {
+  translation 302.95 -505.24 0
+  rotation -9.589734506671008e-09 0.0036138716983296877 -0.9999934699443532 -5.307179586466759e-06
+  name "speed limit(2)"
+}
+SpeedLimitSign {
+  translation 391.33 277.19 0
+  rotation 0 0 1 1.5708
+  name "speed limit(1)"
+}
+SpeedLimitSign {
+  translation -84.149 318.88 0
+  rotation 0 0 1 3.14159
+}
+Wall {
+  translation -417.15 121.75 0.00151349
+  rotation 0.5773489358556708 -0.5773509358554485 -0.5773509358554485 -2.094395307179586
+  name "wall(8)"
+  size 0.2 1 122.5
+  appearance Roughcast {
+    colorOverride 0.729412 0.729412 0.545098
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -417.71 255.18 0.00153438
+  rotation 0 1 0 1.5708
+  name "wall(7)"
+  size 0.2 1 250
+  appearance Roughcast {
+    colorOverride 0.729412 0.729412 0.545098
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -417.71 121.25 0.00153438
+  rotation 0 1 0 1.5708
+  name "wall(6)"
+  size 0.2 1 250
+  appearance Roughcast {
+    colorOverride 0.729412 0.729412 0.545098
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -168.22 121.75 0.000909128
+  rotation 0.5773489358556708 -0.5773509358554485 -0.5773509358554485 -2.094395307179586
+  name "wall(5)"
+  size 0.2 1 122.5
+  appearance Roughcast {
+    colorOverride 0.729412 0.729412 0.545098
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -417.13 25.86 0.00141399
+  rotation 0.5773489358556708 -0.5773509358554485 -0.5773509358554485 -2.094395307179586
+  name "wall(4)"
+  size 0.2 1 85.5
+  appearance Roughcast {
+    colorOverride 0.729412 0.729412 0.545098
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -168.22 25.86 0.000809744
+  rotation 0.5773489358556708 -0.5773509358554485 -0.5773509358554485 -2.094395307179586
+  name "wall(3)"
+  size 0.2 1 85.5
+  appearance Roughcast {
+    colorOverride 0.729412 0.729412 0.545098
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -417.71 244.63 0.00153438
+  rotation 0 1 0 1.5708
+  name "wall(2)"
+  size 0.2 1 250
+  appearance Roughcast {
+    colorOverride 0.729412 0.729412 0.545098
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -417.71 111.43 0.00153438
+  rotation 0 1 0 1.5708
+  name "wall(1)"
+  size 0.2 1 250
+  appearance Roughcast {
+    colorOverride 0.729412 0.729412 0.545098
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -417.71 25.38 0.00153438
+  rotation 0 1 0 1.5708
+  size 0.2 1 250
+  appearance Roughcast {
+    colorOverride 0.729412 0.729412 0.545098
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+StopSign {
+  translation -418.468 24.326 0
+  rotation 0 0 1 -5.307179586466759e-06
+  name "stop sign(4)"
+}
+StopSign {
+  translation -418.468 120.516 0
+  rotation 0 0 1 -5.307179586466759e-06
+  name "stop sign(3)"
+}
+StopSign {
+  translation -418.468 254.166 0
+  rotation 0 0 1 -5.307179586466759e-06
+  name "stop sign(2)"
+}
+StopSign {
+  translation -164.298 245.416 0
+  rotation 0 0 1 3.14159
+  name "stop sign(1)"
+}
+StopSign {
+  translation -164.298 112.036 0
+  rotation 0 0 1 3.14159
+}
+StraightRoadSegment {
+  translation -163.19 250 0
+  rotation 0 0 1 3.14159
+  name "road(16)"
+  width 7.4
+  lines [
+    RoadLine {
+      color 0.803922 0.803922 0
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  length 256
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -163.19 116.43 0
+  rotation 0 0 1 3.14159
+  name "road(15)"
+  width 7.4
+  lines [
+    RoadLine {
+      color 0.803922 0.803922 0
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  length 256
+  locked FALSE
+}
+CurvedRoadSegment {
+  translation -169.98 30.11 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(14)"
+  width 7.4
+  lines [
+    RoadLine {
+      color 0.866667 0.866667 0
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -169.93 20.09 0
+  rotation 0 0 1 3.14159
+  name "road(13)"
+  width 7.4
+  lines [
+    RoadLine {
+      color 0.803922 0.803922 0
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  length 250
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -159.85 321.98 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(12)"
+  width 7.4
+  lines [
+    RoadLine {
+      color 0.803922 0.803922 0
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  length 292
+  locked FALSE
+}
+CrossRoadsTrafficLight {
+  translation -426.14 331.94 0.1
+  name "cross road traffic light(3)"
+  size 27 27
+}
+CrossRoadsTrafficLight {
+  translation -319.04 -516.17 0.2
+  name "cross road traffic light(2)"
+  size 20 20
+}
+CrossRoadsTrafficLight {
+  translation 404.81 -516.17 0.1
+  name "cross road traffic light(1)"
+  size 20 20
+}
+CrossRoadsTrafficLight {
+  translation 404.71 331.94 0
+  size 27 27
+}
+CrashBarrier {
+  translation 448.13 368.08 0
+  rotation 0 0 1 -1.5707953071795862
+  name "crash barrier(3)"
+  path [
+    0 0 0
+    900 0 0
+  ]
+}
+CrashBarrier {
+  translation 589.3 -531.68 0
+  rotation 0 0 1 3.14159
+  name "crash barrier(2)"
+  path [
+    0 0 0
+    1100 0 0
+  ]
+}
+CrashBarrier {
+  translation -452.15 368.08 0
+  rotation 0 0 1 -1.5707953071795862
+  name "crash barrier(1)"
+  path [
+    0 0 0
+    900 0 0
+  ]
+}
+CrashBarrier {
+  translation -551.42 368.08 0
+  rotation 0 0 1 1.01503e-06
+  path [
+    0 0 0
+    1100 0 0
+  ]
+}
+Road {
+  translation -426.55 -159.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(11)"
+  width 14.8
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.839216 0.839216 0
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    5 0 0
+  ]
+  endingAngle [
+    -0.26
+  ]
+  locked FALSE
+}
+AddLaneRoadSegment {
+  translation -418.38 295.91 0
+  rotation 0 0 1 1.5708
+  name "road(10)"
+  width 1.9
+  numberOfLanes 1
+  newLaneLeft FALSE
+  leftBorder FALSE
+  locked FALSE
+}
+AddLaneRoadSegment {
+  translation -426.48 295.91 0
+  rotation 0 0 1 1.5708
+  name "road(9)"
+  width 14.7
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.870588 0.870588 0
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  locked FALSE
+}
+RoadIntersection {
+  translation -426.457 331.843 0
+  rotation 0 0 -1 -0.785395307179586
+  name "road intersection(4)"
+  roadsWidth 22
+  speedLimit 24
+  startRoadsNumberOfLanes 6
+  startRoadsStartLine [
+    ""
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  startRoadsLine [
+    RoadLine {
+    }
+    RoadLine {
+    }
+    RoadLine {
+      color 0.854902 0.854902 0
+      type "double"
+    }
+  ]
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -426.5 295.91 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(8)"
+  width 14.8
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.87451 0.87451 0
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  length 457
+  locked FALSE
+}
+Road {
+  translation -426.52 -164.108 0
+  rotation 0 0 1 -1.3089953071795861
+  name "road(7)"
+  width 14.8
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.854902 0.854902 0
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    92 0 0
+  ]
+  startingAngle [
+    0
+  ]
+  endingAngle [
+    0
+  ]
+  locked FALSE
+}
+Road {
+  translation -331.871 -285.579 0
+  rotation 0 0 -1 1.309
+  width 14.8
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.85098 0.85098 0
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    -50 -60 0
+    20 0 0
+    40 0 0
+    50 0 0
+  ]
+  startingAngle [
+    0
+  ]
+  endingAngle [
+    0.26
+  ]
+  splineSubdivision 1
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -318.97 -333.82 0
+  rotation 0 0 1 -1.5707953071795862
+  name "road(6)"
+  width 14.8
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.87451 0.87451 0
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  length 170
+  locked FALSE
+}
+RoadIntersection {
+  translation -318.978 -516.183 0
+  rotation 0 0 1 0.785399
+  name "road intersection(3)"
+  roadsWidth 14.8
+  startRoadsNumberOfLanes 4
+  startRoadsLine [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.843137 0.843137 0
+      type "double"
+    }
+  ]
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -306.61 -516.17 0
+  name "road(5)"
+  width 14.8
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.858824 0.858824 0
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  length 700
+  locked FALSE
+}
+StraightRoadSegment {
+  translation 405.03 -503.9 0
+  rotation 0 0 1 1.5708
+  name "road(4)"
+  width 14.8
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.87451 0.87451 0
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  length 800
+  locked FALSE
+}
+AddLaneRoadSegment {
+  translation 413.17 295.91 0
+  rotation 0 0 1 1.5708
+  name "road(3)"
+  width 1.9
+  numberOfLanes 1
+  newLaneLeft FALSE
+  leftBorder FALSE
+  locked FALSE
+}
+AddLaneRoadSegment {
+  translation 405.03 295.91 0
+  rotation 0 0 1 1.5708
+  name "road(2)"
+  width 14.7
+  numberOfLanes 4
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.870588 0.870588 0
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -410.63 331.86 0
+  name "road(1)"
+  width 22
+  numberOfLanes 6
+  numberOfForwardLanes 3
+  speedLimit 24
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+    }
+    RoadLine {
+      color 0.909804 0.909804 0
+      type "double"
+    }
+    RoadLine {
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  length 800
+  locked FALSE
+}
+RoadLine {
+}
+RoadIntersection {
+  translation 405.022 331.852 0
+  rotation 0 0 -1 2.3562
+  name "road intersection(2)"
+  roadsWidth 22
+  speedLimit 24
+  startRoadsNumberOfLanes 6
+  startRoadsStartLine [
+    ""
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  startRoadsLine [
+    RoadLine {
+    }
+    RoadLine {
+    }
+    RoadLine {
+      color 0.854902 0.854902 0
+      type "double"
+    }
+  ]
+  locked FALSE
+}
+RoadIntersection {
+  translation 405.02 -516.179 0
+  rotation 0 0 1 2.35619
+  roadsWidth 14.8
+  startRoadsNumberOfLanes 4
+  startRoadsLine [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.843137 0.843137 0
+      type "double"
+    }
+  ]
+  locked FALSE
+}
